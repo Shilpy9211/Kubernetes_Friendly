@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>K8s FRIENDLY!!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="kuchbhi.js"></script>
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="website.css">
+
+
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="website.html"  class="active">Website</a>
+  <a onclick="ourfunction()">Dashboard</a>
+  <div class="dropdown">
+    <button class="dropbtn">Help<i class="fa fa-fw fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="https://kubernetes.io/docs/home/">Documentation</a>
+      <a href="https://www.bluematador.com/learn/kubectl-cheatsheet">CheatSheet</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">Blog<i class="fa fa-fw fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="https://lambda.grofers.com/how-i-started-working-with-kubernetes-1c60f2eb1886">k8s setup</a>
+      <a href="https://cloudplex.io/blog/when-and-when-not-you-need-to-use-kubernetes/">Why k8s</a>
+    </div>
+    </div>
+  <a href="Contacts.html"><i class="fa fa-fw fa-envelope"></i>About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div id = "header_div"> 
+    <div id="title_name" style="font-size: 30px;"><big><b>INSTRUCTIONS</b></big></div>
+    <div>Here in the below shell , yu can write down whatever you want to do in kubernetes Cluster<Br/>
+    If ,you are familiar with kubernetes supported commands, then you can write down the same, else just type your need in your own language.<Br/>
+    <span Style="font: bolder; color: red;">NOTE:</span> Write the name of pod or deployment , followed by keyword <b>name</b></div>
+    </div>
+    
+        
+    
+    <div id="terminal">
+    
+            <div id="terminal_head">
+            <i>Example: Hey ,can you please launch pods with name p1 from image https?</i>
+            </div>
+            
+            <div id="b">
+                <div>
+                    Kubernetes Friendly $  <input id = "in1"  placeholder="  Give your command here">
+                </div>
+                <pre>
+                    <div id = "d1">Output promt.... </div> 
+                </pre>
+    
+            </div>		
+    </div>
+    
+    
+    <div id="b1">
+    <button id='but' onclick="k8s_cmd();">Click</button>
+    </div>
+    
+
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    
+    </body>
+    </html>
